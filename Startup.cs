@@ -23,7 +23,7 @@ namespace SignalR
         }
 
         public IConfiguration Configuration { get; }
-
+        // i love you
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
@@ -51,8 +51,8 @@ namespace SignalR
             }
 
             app.UseHttpsRedirection();
-            app.UseDefaultFiles(); // ¨ÏÀRºAÀÉ®×¸ô®|¹w³]«ü¦V index.html
-            app.UseStaticFiles(); // ±Ò¥ÎÀRºAÀÉ®×
+            app.UseDefaultFiles(); // ï¿½ï¿½ï¿½Rï¿½Aï¿½É®×¸ï¿½ï¿½|ï¿½wï¿½]ï¿½ï¿½ï¿½V index.html
+            app.UseStaticFiles(); // ï¿½Ò¥ï¿½ï¿½Rï¿½Aï¿½É®ï¿½
 
             app.UseRouting();
 
