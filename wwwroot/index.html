@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="./lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row g-1 mt-4">
+            <div class="col-2">
+                <!-- 使用者名稱輸入框 -->
+                <input id="userInput" type="text" class="form-control" placeholder="User">
+            </div>
+            <div class="col-2">
+                <!-- 密碼輸入框 -->
+                <input id="passInput" type="password" class="form-control" placeholder="Password">
+            </div>
+            <!-- 登入按鈕 -->
+            <div class="col-auto">
+                <button id="loginButton" type="button" class="btn btn-outline-secondary">登入</button>
+            </div>
+        </div>
+        <div class="row g-1 mt-2">
+            <!-- 訊息輸入框 -->
+            <div class="col-4">
+                <input type="text" id="messageInput" class="form-control" placeholder="Message" />
+            </div>
+            <!-- 送出按鈕 -->
+            <div class="col-auto">
+                <button id="sendButton" type="button" class="btn btn-outline-success">Send</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <hr />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <!-- 顯示訊息的ul -->
+            <ul id="messagesList"></ul>
+        </div>
+    </div>
+    <script src="./js/signalr/dist/browser/signalr.js"></script>
+    <script src="./js/chat.js"></script>
+    <script src="./lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./lib/axios/dist/axios.min.js"></script>
+</body>
+</html>
