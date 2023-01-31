@@ -23,7 +23,7 @@ namespace SignalR
         }
 
         public IConfiguration Configuration { get; }
-        // i love you
+        // i love you , you love me,
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
