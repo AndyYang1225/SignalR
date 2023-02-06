@@ -23,7 +23,7 @@ namespace SignalR
         }
 
         public IConfiguration Configuration { get; }
-        // test 112/02/06
+        // 第二次測試test 112/02/06 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
